@@ -1,0 +1,14 @@
+div {
+    border: 2px solid black;
+}
+
+.pixel {
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+}
+
+
+.hovered {
+    background-color: pink;
+}
