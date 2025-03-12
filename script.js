@@ -25,3 +25,20 @@ function changeColor(newColor) {
         }
     }
 }
+//add event listener to resolution button
+sizeButton = document.querySelector(".size");
+sizeButton.addEventListener("click", () => {
+    let input = Number(prompt("Enter a Whole number between 16 and 100(inclusive)", 16));
+
+    while(isNaN(input) || input < 16 || input > 100) {
+        input = Number(prompt("Enter a Whole number between 16 and 100(inclusive)", 16));
+    }
+    alert(input);
+    
+})
+
+//function to change number of boxes
+function changeBoxNumber(number) {
+    const height = Math.floor(960 / number);
+    const width = height;
+}

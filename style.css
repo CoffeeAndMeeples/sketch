@@ -2,7 +2,19 @@ div {
     border: 2px solid black;
 }
 
+.container {
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+
+
+}
 .pixel {
+    flex: 0 0 0;
+    flex-wrap: wrap;
     height: 16px;
     width: 16px;
     margin: 2px;
